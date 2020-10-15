@@ -1,7 +1,6 @@
 import sys
 sys.stdin = open("2477_참외밭.txt", "r")
 
-
 N = int(input())
 distance = [list(map(int, input().split()))[1] for _ in range(6)]
 # 큰 사각형의 가장 긴 변의 인덱스 구하기

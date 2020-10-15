@@ -25,7 +25,6 @@ print(max_cnt)
 ###############################################
 # 풀이
 N = int(input())
-
 li = list(map(int, input().split()))
 
 cnt_p = 1   #  연속증가 길이
