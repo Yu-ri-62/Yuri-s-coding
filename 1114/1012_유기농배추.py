@@ -12,7 +12,6 @@ for _ in range(T):
     for _ in range(K):                        # arr에 1 표시
         c, r = map(int, input().split())
         arr[r][c] = 1
-
     cnt = 0                 # 지렁이 갯수 셀 변수
     for i in range(N):
         for j in range(M):
