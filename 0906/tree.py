@@ -9,7 +9,7 @@ def preorder(node):
         cnt += 1
         preorder(tree[node][0])
         preorder(tree[node][1])
-
+1
 
 V =  int(input())  # 정점
 E = V - 1   # 간선
@@ -26,6 +26,6 @@ for i in range(E):
     tree[c][2] = p       # parent
 
 print(tree)
-preorder(11)
+preorder(1)
 print()
 print(cnt)
